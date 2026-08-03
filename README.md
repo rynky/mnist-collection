@@ -17,4 +17,4 @@ Implementation:
 4. Train the model using a RNN
 5. Save the model
 
-Template: [https://www.tensorflow.org/datasets/keras_example](https://www.tensorflow.org/datasets/keras_example)
+Find an official template [here](https://www.tensorflow.org/datasets/keras_example).
