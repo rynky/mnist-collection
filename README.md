@@ -3,6 +3,7 @@
 ## Drawing Interface
 
 Simple interface in Pygame for drawing digits. 
+
 Digits are used for evaluation with the trained model.
 
 <img width="308" height="338" alt="image" src="https://github.com/user-attachments/assets/186ad016-9e43-4bc7-afe1-389b63f282a3" />
