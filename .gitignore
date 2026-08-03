@@ -1,0 +1,51 @@
+# === Python / Environment ===
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Operating System (Windows / macOS) ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === TensorFlow / Machine Learning Outputs ===
+# Ignore downloaded datasets (prevent pushing gigabytes of data to GitHub)
+~/tensorflow_datasets/
+tensorflow_datasets/
+*mnist*/
+
+# Ignore saved models, checkpoints, and weights
+*.h5
+*.keras
+*.kerasmodel
+checkpoint/
+checkpoints/
+saved_model/
+*.ckpt
+
+# Ignore TensorBoard training logs
+logs/
+tensorboard/
+
+# === Data & Jupyter Notebooks ===
+.ipynb_checkpoints
+*.csv
+*.json
