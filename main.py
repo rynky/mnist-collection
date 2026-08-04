@@ -1,8 +1,6 @@
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-print("Hello, World")
-
 # LOAD THE MNIST DATASET #
 
 (ds_train, ds_test), ds_info = tfds.load(
